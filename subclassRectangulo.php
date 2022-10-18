@@ -6,7 +6,7 @@ class Rectangulo extends Shape{
     function __construct( $width, $height){
         parent::__construct($width, $height);
     }
-    public function rectangulo ($width ,$height){
+    public function calcularAreaRectangulo ($width ,$height){
         $areaRectangulo = ($width * $height);
         
         

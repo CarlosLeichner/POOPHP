@@ -8,7 +8,7 @@ class Triangulo extends Shape{
         parent::__construct($width, $height);
     }
     
-    public function triangulo ($width, $height){
+    public function calcularAreaTriangulo ($width, $height){
         $areaTriangulo = ($width * $height)/2;
         
         

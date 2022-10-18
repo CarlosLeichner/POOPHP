@@ -9,16 +9,16 @@
 
 require_once ("subclassTriangulo.php");
 
-function instanciarTriangulo ($v1, $v2){
+function instanciarTrianguloConCalculoArea ($v1, $v2){
     $triangulo = new Triangulo($v1, $v2);
-    return $triangulo->triangulo($v1, $v2)."<br>";
+    return $triangulo->calcularAreaTriangulo($v1, $v2)."<br>";
 
 }
 require_once ("subclassRectangulo.php");
 
-function instanciarRectangulo ($v1, $v2){
+function instanciarRectanguloConCalculoArea ($v1, $v2){
     $rectangulo = new Rectangulo($v1, $v2);
-    return $rectangulo->rectangulo($v1, $v2)."<br>";
+    return $rectangulo->calcularAreaRectangulo($v1, $v2)."<br>";
 
 }
 

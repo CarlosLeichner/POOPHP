@@ -7,7 +7,7 @@
 
  En el archivo main define dos objetos, un triángulo y un rectángulo y
  llama al método area de cada uno.*/
-class Shape{
+abstract class Shape{
     public $width;
     public $height;
     function __construct($width, $height){
