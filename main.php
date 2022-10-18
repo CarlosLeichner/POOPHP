@@ -22,6 +22,6 @@ function instanciarRectanguloConCalculoArea ($v1, $v2){
 
 }
 
-echo instanciarRectangulo(30,2);
-echo instanciarTriangulo(20,4);
+echo instanciarTrianguloConCalculoArea(30,2);
+echo instanciarRectanguloConCalculoArea(20,4);
 ?>
