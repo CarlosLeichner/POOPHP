@@ -8,7 +8,7 @@
  
 
 require_once ("subclassTriangulo.php");
-$triangulo = new Triangulo();
+$triangulo = new Triangulo($width,$height);
 $triangulo->altura(10); 
 $triangulo->base(3);
 $triangulo->calcularArea();
@@ -17,7 +17,7 @@ $triangulo->mostrarArea();
 
 require_once ("subclassRectangulo.php");
 
-$rectangulo = new Rectangulo(); 
+$rectangulo = new Rectangulo($width,$height); 
 $rectangulo->altura(50); 
 $rectangulo->base(30);
 $rectangulo->calcularArea();

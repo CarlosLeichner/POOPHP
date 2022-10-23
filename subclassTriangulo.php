@@ -3,7 +3,11 @@ require_once ("classShape.php");
 
 class Triangulo extends Shape{
     
-    
+    public function __construct($width, $height)
+    {
+        $this->width = $width;
+        $this->height = $height;
+    }
     
     
     public function calcularArea (){
