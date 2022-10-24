@@ -8,22 +8,16 @@
  
 
 require_once ("subclassTriangulo.php");
-$triangulo = new Triangulo($width,$height);
-$triangulo->altura(10); 
-$triangulo->base(3);
+$triangulo = new Triangulo(3,10);
 $triangulo->calcularArea();
 $triangulo->mostrarArea();
 
 
 require_once ("subclassRectangulo.php");
 
-$rectangulo = new Rectangulo($width,$height); 
-$rectangulo->altura(50); 
-$rectangulo->base(30);
+$rectangulo = new Rectangulo(50,30); 
 $rectangulo->calcularArea();
 $rectangulo->mostrarArea();
-
-
 
 
 ?>

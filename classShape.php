@@ -11,13 +11,10 @@ abstract class Shape{
     protected $width;
     protected $height;
     protected $area;
-    public function altura($height){
-        
-        $this->height = $height;  
-    }
-    public function base($width){
-         $this->width = $width;
-        
+    public function __construct($width, $height)
+    {
+        $this->width = $width;
+        $this->height = $height;
     }
    
     public function mostrarArea(){
